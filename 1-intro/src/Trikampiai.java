@@ -1,4 +1,4 @@
-public class trikampiai {
+public class Trikampiai {
     public static void main(String[] args) {
         System.out.println("Trikampiai");
 
