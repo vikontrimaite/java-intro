@@ -1,11 +1,11 @@
-package p04;
+package intro;
 
 public class Vidurkis {
     public static void main(String[] args) {
         int[] a = {5, 6, 10, 15, 8, 4};
         int[] b = {8, 5, 3};
 
-        int suma1= 0;
+        int suma1 = 0;
         for (int kintamasis : a) {
             // kintamasis is masyvo a (JS'e kintamasis of a)
             suma1 += kintamasis;

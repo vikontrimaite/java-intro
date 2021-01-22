@@ -1,3 +1,5 @@
+package intro;
+
 public class MasyvasIrCiklas {
     public static void main(String[] args) {
         // kiek yra elementu, kurie prasideda raide 'A'
@@ -10,4 +12,5 @@ public class MasyvasIrCiklas {
         }
         System.out.println("Viso zodziu prasidedanciu A raide yra " + sk);
     }
+
 }

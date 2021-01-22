@@ -1,6 +1,8 @@
+package intro;
+
 public class Trikampiai {
     public static void main(String[] args) {
-        System.out.println("Trikampiai");
+        System.out.println("intro.Trikampiai");
 
         // [][[ resikia masyvas masyve
         int[][] trikampiai = {{ 3, 4, 5}, {2, 10, 8}, {5, 6, 5}, {5, 5, 5}};
