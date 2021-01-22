@@ -1,3 +1,5 @@
+package p04;
+
 public class Vidurkis {
     public static void main(String[] args) {
         int[] a = {5, 6, 10, 15, 8, 4};

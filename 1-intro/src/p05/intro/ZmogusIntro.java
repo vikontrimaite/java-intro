@@ -1,8 +1,10 @@
+package p05.intro;
+
 import java.time.LocalDate;
 
 public class ZmogusIntro {
     public static void main(String[] args) {
-        // Zmogus:
+        // p05.intro.Zmogus:
             // int id
             // String firstName;
             // String lastName;
@@ -30,7 +32,7 @@ public class ZmogusIntro {
         z2.birthday = LocalDate.of(1654, 12, 6);
         zmones[1] = z2;
 
-//        Zmogus z3 = new Zmogus();
+//        p05.intro.Zmogus z3 = new p05.intro.Zmogus();
 //        z3.id = 1;
 //        z3.firstName = "Dave";
 //        z3.lastName = "Car";
