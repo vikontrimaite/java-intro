@@ -1,12 +1,38 @@
 package ClassAndObejcts;
 
 public class Zmogus {
-    String vardas;
-    String pavarde;
+    private String vardas;
+    private String pavarde;
+    private boolean hasShoes;
 
-    Zmogus(String vardas, String pavarde) {
+    public Zmogus(String vardas, String pavarde) {
+        setVardas(vardas);
+        setPavarde(pavarde);
+    }
+
+    public String getVardas() {
+        return vardas;
+    }
+
+    public void setVardas(String vardas) {
         this.vardas = vardas;
+    }
+
+    public String getPavarde() {
+        return pavarde;
+    }
+
+    public void setPavarde(String pavarde) {
         this.pavarde = pavarde;
+    }
+
+    // su boolean type get'eris prasideda is, o ne get
+    public boolean isHasShoes() {
+        return hasShoes;
+    }
+
+    public void setHasShoes(boolean hasShoes) {
+        this.hasShoes = hasShoes;
     }
 
     public static void main(String[] args) {
@@ -14,8 +40,10 @@ public class Zmogus {
         Zmogus zmogus2 = new Zmogus("Maria", "White");
         Zmogus zmogus3 = new Zmogus("Jane", "Blue");
 
-        System.out.println("Pirmo zmogaus vardas yra " + zmogus1.vardas + ", o pavarde - " + zmogus1.pavarde);
-        System.out.println("Antro zmogaus vardas yra " + zmogus2.vardas + ", o pavarde - " + zmogus2.pavarde);
-        System.out.println("Trecio zmogaus vardas yra " + zmogus3.vardas + ", o pavarde - " + zmogus3.pavarde);
+        System.out.println("Pirmo zmogaus vardas yra " + zmogus1.getVardas() + ", o pavarde - " + zmogus1.getPavarde());
+        System.out.println("Antro zmogaus vardas yra " + zmogus2.getVardas() + ", o pavarde - " + zmogus2.getPavarde());
+        System.out.println("Trecio zmogaus vardas yra " + zmogus3.getVardas() + ", o pavarde - " + zmogus3.getPavarde());
+
+
     }
 }

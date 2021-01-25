@@ -50,4 +50,5 @@ public class Mokinys {
     public void setKlase(int klase) {
         this.klase = klase;
     }
+
 }
